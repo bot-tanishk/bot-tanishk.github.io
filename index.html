@@ -28,10 +28,28 @@
       50% { transform: scale(1.05); }
       100% { transform: scale(1); }
     }
+
+    h2 {
+      animation: rainbow 2s infinite;
+    }
+
+    @keyframes rainbow {
+      0% { color: red; }
+      25% { color: orange; }
+      50% { color: yellow; }
+      75% { color: green; }
+      100% { color: blue; }
+    }
   </style>
 </head>
 <body>
   <h1>👋 Welcome to Tanishk's World!</h1>
   <p>This is my first website. Cool things coming soon 😎</p>
+  <button onclick="alert('Welcome to my world 🌍')">Click Me</button>
+
+  <div style="text-align: center; margin-top: 50px;">
+    <h2>Hi, I’m Tanishk 👋</h2>
+    <p>I’m learning how to build websites — and this is my first one!</p>
+  </div>
 </body>
 </html>
